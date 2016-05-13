@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reproducible Pitch</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Reproducible Pitch">
+  <meta name="author" content="Jean Marie Cimula">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Reproducible Pitch</h1>
+    <h2>US economic Time Series</h2>
+    <p>Jean Marie Cimula<br/>Learner</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>In this assignment, we have used the dataset &quot;economics&quot; in order to report the following points:</p>
+
+<ol>
+<li>Desscriptive statistics </li>
+<li>Exploratory Data Analysis</li>
+<li>Dynamic Regression Models</li>
+</ol>
+
+<p>Please find the link of the project : <a href="https://jmcimula.shinyapps.io/ShinyMultiTaskPlatform/">https://jmcimula.shinyapps.io/ShinyMultiTaskPlatform/</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Overview on the dataset Economics</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This dataset was produced from US economic time series data available from <a href="http://research.stlouisfed.org/fred2">http://research.stlouisfed.org/fred2</a>.</p>
+
+<p>Find below the variables :</p>
+
+<ol>
+<li>PCE : Personal Consumption Expenditures</li>
+<li>POP : Total Population</li>
+<li>PSAVERT : Personal Savings Rate</li>
+<li>UEMPMED: Median Duration of Unemployment</li>
+<li>UNEMPLOY : Number of Unemployment in thousands</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Descriptive statistics (CheckBoxGroup)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Basically, if you make the choice of one or many variables in the same time. The output from the system will be a table with : </p>
+
+<ul>
+<li>Variable name</li>
+<li>Min</li>
+<li>Max</li>
+<li>Mean</li>
+<li>Missing</li>
+<li>Number of Observations</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Exploratory Data Analysis (TextBox)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>There is an option to generate plots by typing in the text box the key word cor or plot. When the project is launched from Shiny server, the plot of correlation appears by default </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Dynamic Regression Models (Radio Button)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>In this section, we have to choose a response variable and submit. Then, the result is the creation of all combinations of selected variables that will go into models as predictors. From the output we can appreciate the model quality summary (R-Squared, Adj-R Squared, etc.)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Overview on the dataset Economics'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Descriptive statistics (CheckBoxGroup)'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Exploratory Data Analysis (TextBox)'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Dynamic Regression Models (Radio Button)'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
